@@ -20,7 +20,7 @@ module.exports = {
       email: 'selvi.osman@gmail.com',
       medium: '@selvi.osman',
       twitter: '@osmslvi',
-      github: 'osiman',
+      github: 'osman-selvi',
       linkedin: 'osmanselvi'
     }
   },
