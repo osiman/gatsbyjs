@@ -19,19 +19,12 @@ class IndexRoute extends React.Component {
           <title>{title}</title>
           <meta name="description" content={subtitle} />
           <link rel="icon" href={Favicon} type="image/x-icon" />
-          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-5XSZXJT');</script>
         </Helmet>
         <Sidebar siteMetadata={this.props.data.site.siteMetadata} />
         <div className="content">
           <div className="content__inner">
             {items}
           </div>
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XSZXJT"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
     );

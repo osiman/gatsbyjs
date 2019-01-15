@@ -4,7 +4,7 @@ module.exports = {
     title: 'Osman Selvi',
     subtitle: '',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'www-osmanselvi-com',
     menu: [
       {
         label: 'Articles',

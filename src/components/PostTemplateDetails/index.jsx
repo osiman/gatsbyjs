@@ -6,7 +6,7 @@ import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author, disqusShortname, copyright, url } = this.props.siteMetadata;
+    const { subtitle, author, disqusShortname, url } = this.props.siteMetadata;
     const post = this.props.post;
     const tags = post.fields.tagSlugs;
 
@@ -47,7 +47,7 @@ class PostTemplateDetails extends React.Component {
           <div className="post-single__footer">
             {tagsBlock}
             <hr />
-            {copyright}
+            {disqusShortname && commentsBlock}
           </div>
         </div>
       </div>

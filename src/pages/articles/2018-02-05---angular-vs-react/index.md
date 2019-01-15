@@ -1,5 +1,5 @@
 ---
-title: Angular VS Redux Arasındaki Farklılıklar
+title: Angular VS React Arasındaki Farklılıklar
 date: "2018-02-19T22:40:32.169Z"
 layout: post
 draft: false
