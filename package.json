@@ -1,6 +1,6 @@
 {
   "version": "2.0.2",
-  "name": "gatsby-starter-lumen",
+  "name": "gatsbyjs",
   "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "repository": "git+https://github.com/osiman/gatsbyjs",
   "keywords": [
     "gatsby",
     "blog",
@@ -20,7 +20,7 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Osman Selvi <selvi.osman@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "gatsby": "^1.9.164",

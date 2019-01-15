@@ -9,7 +9,8 @@ class Links extends React.Component {
       medium: author.medium,
       twitter: author.twitter,
       github: author.github,
-      email: author.email
+      email: author.email,
+      linkedin: author.linkedin
     };
 
     return (
@@ -21,8 +22,13 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
+            <a href={`https://www.linkedin.com/in/${links.linkedin}`} target="_blank" >
+              <i className="icon-linkedin" />
+            </a>
+          </li>
+          <li className="links__list-item">
             <a href={`https://www.medium.com/${links.medium}`} target="_blank" >
-              <i className="icon-github" />
+              <i className="icon-medium" />
             </a>
           </li>
           <li className="links__list-item">

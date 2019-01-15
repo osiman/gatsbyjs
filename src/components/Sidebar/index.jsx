@@ -74,6 +74,7 @@ export const conponentQuery = graphql`
       medium
       twitter
       github
+      linkedin
     }
   }
 `;

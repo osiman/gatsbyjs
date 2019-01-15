@@ -6,7 +6,7 @@ import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author, disqusShortname, url } = this.props.siteMetadata;
+    const { subtitle, author, disqusShortname, copyright, url } = this.props.siteMetadata;
     const post = this.props.post;
     const tags = post.fields.tagSlugs;
 
@@ -43,20 +43,11 @@ class PostTemplateDetails extends React.Component {
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
             <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
-            <div className="post-single__date">
-              <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
-            </div>
           </div>
           <div className="post-single__footer">
             {tagsBlock}
             <hr />
-            <p className="post-single__footer-text">
-              {subtitle}
-              <a href={`https://twitter.com/${author.twitter}`} target="_blank" rel="noopener noreferrer">
-                <br /> <strong>{author.name}</strong> on Twitter
-              </a>
-            </p>
-            {disqusShortname && commentsBlock}
+            {copyright}
           </div>
         </div>
       </div>

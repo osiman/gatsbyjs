@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://osmanselvi.com',
     title: 'Osman Selvi',
-    subtitle: 'Buralara defaoult şeyler yazıcaz',
+    subtitle: '',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -20,7 +20,8 @@ module.exports = {
       email: 'selvi.osman@gmail.com',
       medium: '@selvi.osman',
       twitter: '@osmslvi',
-      github: 'osiman'
+      github: 'osiman',
+      linkedin: 'osmanselvi'
     }
   },
   plugins: [
@@ -111,7 +112,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' }
+      options: { trackingId: 'UA-60973352-1' }
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
